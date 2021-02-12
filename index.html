@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="name">
+            Name:
+            <input type="text" name="name" id="name" data-fm="Name">
+        </label>
+        <label for="phone">
+            Phone:
+            <input type="text" name="phone" id="phone" data-fm="Phone">
+        </label>
+        <label for="email">
+            E-mail:
+            <input type="text" name="email" id="email" data-fm="Email">
+        </label>
+        <label for="message">
+            Message:
+            <textarea name="message" id="message" data-fm="Message"></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+    <script src="js/axios.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
